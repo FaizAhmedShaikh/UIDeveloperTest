@@ -1,0 +1,291 @@
+*{margin:0; padding:0; box-sizing:border-box;-webkit-transition: all 0.3s; transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s;}
+html, body{height:100%;}
+body { font-size:14px; color:#000000; font-family: 'SignikaRegular';}
+.clearfix:after { content: " "; visibility: hidden; display: block; height: 0; clear: both; }
+.clearfix:after { content: ""; display: table; clear: both; }
+a:hover, a:focus{color:inherit}
+a:focus, button:focus{outline:0 !important;}
+a:hover, a:focus{text-decoration:none;}
+p { margin: 0; }
+ul { padding: 0; margin: 0; list-style: none; margin-bottom: 0; }
+h1,h2,h3,h4,h5,h6{margin:0 ; padding:0;}
+label{margin:0;font-weight:normal;}
+.btn.active, .btn:active{box-shadow:none;}
+.btn.focus, .btn:focus{outline: 0;box-shadow:none;}
+.form-control:focus{border-color: transparent;box-shadow: none;}
+
+@font-face {
+    font-family: 'Berkshire Swash';
+    src: url('../fonts/BerkshireSwash-Regular.eot');
+    src: local('../fonts/Berkshire Swash'), local('../fonts/BerkshireSwash-Regular'),
+        url('../fonts/BerkshireSwash-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BerkshireSwash-Regular.woff2') format('woff2'),
+        url('../fonts/BerkshireSwash-Regular.woff') format('woff'),
+        url('../fonts/BerkshireSwash-Regular.ttf') format('truetype'),
+        url('../fonts/BerkshireSwash-Regular.svg#BerkshireSwash-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SignikaRegular';
+    src: url('../fonts/hinted-Signika-Regular.eot');
+    src: local('Signika'), local('Signika-Regular'),
+        url('../fonts/hinted-Signika-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-Signika-Regular.woff2') format('woff2'),
+        url('../fonts/hinted-Signika-Regular.woff') format('woff'),
+        url('../fonts/hinted-Signika-Regular.ttf') format('truetype'),
+        url('../fonts/hinted-Signika-Regular.svg#Signika-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SignikaBold';
+    src: url('../fonts/hinted-Signika-Bold.eot');
+    src: local('Signika Bold'), local('Signika-Bold'),
+        url('../fonts/hinted-Signika-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-Signika-Bold.woff2') format('woff2'),
+        url('../fonts/hinted-Signika-Bold.woff') format('woff'),
+        url('../fonts/hinted-Signika-Bold.ttf') format('truetype'),
+        url('../fonts/hinted-Signika-Bold.svg#Signika-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SignikaSemibold';
+    src: url('../fonts/hinted-Signika-Semibold.eot');
+    src: local('Signika Semibold'), local('Signika-Semibold'),
+        url('../fonts/hinted-Signika-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-Signika-Semibold.woff2') format('woff2'),
+        url('../fonts/hinted-Signika-Semibold.woff') format('woff'),
+        url('../fonts/hinted-Signika-Semibold.ttf') format('truetype'),
+        url('../fonts/hinted-Signika-Semibold.svg#Signika-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* -- Banner -- */
+.banner{background: url(../images/banner.jpg) no-repeat;height: 768px;background-position: top center;position:relative; background-size:cover;  }
+.overlay{position:absolute; bottom:0; background: url(../images/overlay-img.png) no-repeat;height: 390px;width:100%; left:0;padding:30px 15px 0;}
+.overlay .text h1{font-family: 'Berkshire Swash'; font-size:72px; color:#ffffff;}
+.overlay .text p{font-family: 'Berkshire Swash'; color:#d6f3e9;font-size:36px;}
+.box{background: #edf9f5 url(../images/feet.png) no-repeat;padding: 30px;border-radius: 15px;border: 2px solid #259788;font-family: 'SignikaRegular';color: #6b716f;font-size: 24px;
+     background-position: calc(100% - 300px);background-position-y: calc(100% - -90px);margin-top:30px;}
+.cont-btn{background: #ffcc00;color: #542400;font-size: 25px;font-family: 'SignikaBold';border-radius: 7px;border: 1px solid #cfdad6;padding: 16px 30px;width: 222px; }
+.cont-btn:hover, .cont-btn:focus{-webkit-box-shadow: 0 70px 0 0 #1D1D1D inset;-moz-box-shadow: 0 70px 0 0 #542400 inset;-ms-box-shadow: 0 70px 0 0 #542400 inset;
+                                 -o-box-shadow: 0 70px 0 0 #542400 inset;box-shadow: 0 70px 0 0 #542400 inset;-webkit-transition-duration: 0.8s;-moz-transition-duration: 0.8s;
+                                 -ms-transition-duration: 0.8s;-o-transition-duration: 0.8s;transition-duration: 0.8s;color: #ffcc00;}
+.read-care{font-size:11px; color:#ffffff;text-align:center;padding:20px 0 0} 
+/* -- Banner -- */
+
+
+/* -- Just a Pet Lover -- */
+.petlover-section{background:#edf9f5;padding:112px 0 42px;}
+.heading{font-family: 'Berkshire Swash'; font-size:48px; color:#00435f; margin-bottom:50px;text-align:center;}
+.petlover-section .inner-box{display:table; width:100%;padding: 0 130px;}
+.petlover-section .inner-box img{display:table-cell; vertical-align:middle;}
+.petlover-section .inner-box p{color:#458780;font-size:24px;display:table-cell; vertical-align:middle; padding-left:50px;}
+article{color:#bfc9c5; font-size:12px;text-align:center; margin-top:50px;}
+/* -- Just a Pet Lover -- */
+
+
+/* -- Features -- */
+.feature-section{background:#d6f3e9;padding:112px 0 42px;}
+.feature-lisiting li{background:#008696; display:inline-block; vertical-align:top; width:23.1%; margin-right:2%; color:#ffffff; padding:30px 10px;text-align:center; 
+                     border-radius:10px;min-height:250px;}
+.feature-lisiting li h3{font-family:SignikaBold;font-size:24px; margin:15px 0;}
+.feature-lisiting li p{font-family:SignikaRegular;font-size:18px;line-height:22px;}
+.feature-lisiting li:last-child{margin-right:0;}
+/* -- Features -- */
+
+
+/* -- Contact us -- */
+.Contactus-section{background:#00dcc5;padding:112px 0 0px;text-align:center;}
+.Contactus-section .heading{font-family: 'Berkshire Swash'; font-size:48px; color:#d6f3e9; margin-bottom:40px;text-align:center;}
+.hearfromyou{border-bottom:1px solid #008696; background:url(../images/hearfrom-img.jpg) no-repeat center center; color:#007377;padding: 15px 0 130px 0;}
+.hearfromyou h4{font-size:36px; font-family:SignikaBold}
+.hearfromyou p{font-size:18px;}
+.hearfromyou a,
+.hearfromyou a:hover,
+.hearfromyou :focus{color:#007377;}
+/* -- Contact us -- */
+
+
+/* -- Menu -- */
+.menu li{display:inline-block; vertical-align:middle; padding:20px 15px;position:relative;}
+.menu li:not(:first-child) a:before{content: "";position: absolute;bottom: 6px;height: 3px;width: 3px;background: #007f80;border-radius: 100%;left:-15px;}
+.menu li a{color:#007f80; font-family:SignikaSemibold; font-size:16px;position:relative;}
+/* -- Menu -- */
+
+
+/* -- Footer -- */
+footer{background:#edf9f5;padding:112px 0 42px;text-align:center;}
+footer h3{color:#007377; font-size:24px; margin-bottom:10px;}
+footer p{color:#979f9c; font-size:18px;}
+/* -- Footer -- */
+
+
+/* -- Form -- */
+form{width:45%; margin:40px auto 0px;}
+.custom-input {background:#d6f3e9;color:#88bab5;font-family:SignikaRegular; font-size: 18px;border: 0;margin-top: 20px;padding: 15px 30px;height:auto;box-shadow:none;}
+.custom-input:focus{background:#d6f3e9;}
+.send-btn{width:100%;background:#008696;color:#ffffff; margin-top:20px;font-size:24px;font-family:SignikaBold; }
+.send-btn:hover, .send-btn:focus{-webkit-box-shadow: 0 70px 0 0 #1D1D1D inset;-moz-box-shadow: 0 70px 0 0 #07454c inset;-ms-box-shadow: 0 70px 0 0 #07454c inset;
+                                 -o-box-shadow: 0 70px 0 0 #07454c inset;box-shadow: 0 70px 0 0 #07454c inset;-webkit-transition-duration: 0.8s;-moz-transition-duration: 0.8s;
+                                 -ms-transition-duration: 0.8s;-o-transition-duration: 0.8s;transition-duration: 0.8s;color: #ffffff;}
+.arrow_box:after {bottom: 0;left: 50%;border: solid transparent;content: " ";height: 0;width: 0;position: absolute;pointer-events: none;border-bottom-color: #edf9f5;border-width: 10px;margin-left: -10px;}
+.arrow_box:after {}
+/* -- Form -- */
+
+
+/* -- Back To Top -- */
+.back-to-top{-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+             -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+             box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+             background: #008696;border: 0;width: 55px;height: 55px;border-radius: 100%;color: #fff;position: fixed;bottom: 45px;right: 30px;transition: all 0.8s ease;display:none;}
+.back-to-top:hover, .back-to-top:focus{-webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+                                       -moz-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+                                       box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);color: #008696;background: #fff;}
+.back-to-top i{font-size:40px;}
+/* -- Back To Top -- */
+
+
+/* -- Modal Popup -- */
+.custom-popup.modal {text-align: center;padding: 0!important;}
+.custom-popup.modal:before {content: '';display: inline-block;height: 100%;vertical-align: middle;margin-right: -4px;}
+.custom-popup .modal-dialog {display: inline-block;text-align: left;vertical-align: middle;width: auto;margin: 0px auto;}
+.modal-open{padding-right:0 !important}
+/* -- Modal Popup -- */
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:570px) {
+    .banner{height: 550px;background-size: cover;}
+    .overlay{padding: 15px 0px;background-size: cover;height: auto;}
+    .overlay .text h1{font-size: 34px;text-align:center}
+    .overlay .text h1 img{width: 33px;}
+    .overlay .text p{font-size: 16px;text-align:center}
+    .text{float:none !important; margin-bottom:10px;}
+    .image{float:none !important;text-align:center;}
+    .image img{width:130px;}
+    .box{font-size: 16px;text-align: center;margin-top: 10px;padding: 15px;background: #edf9f5;}
+    .patch-content{float:none !important; margin-bottom:10px;}
+    .cont-btn-box{float:none !important;}
+    .cont-btn{font-size: 16px;padding: 10px 30px;width: 100%;}
+
+    .petlover-section,
+    .feature-section,
+    footer{padding: 42px 0 42px;}
+
+    .heading,
+    .Contactus-section .heading{font-size:30px;margin-bottom: 20px;}
+    .petlover-section .inner-box {display: block;padding: 0;}
+    .petlover-section .inner-box img{display: block;margin: 0 auto;width: 200px;}
+    .petlover-section .inner-box p{display: block;padding-top: 20px; padding-left:0;text-align: center;font-size:16px;}
+
+    .feature-lisiting li{display: table;width: 100%;margin-bottom: 20px;padding: 20px 10px;min-height: auto;margin-right: 0;text-align: left}
+    .feature-lisiting li h3{font-size:18px;padding: 0 0 10px 0;margin: 0;}
+    .feature-lisiting li p{font-size: 16px}
+    .feature-lisiting li:last-child{margin-bottom:0;}
+    .feature-lisiting li img {width: 55px;display: table-cell;vertical-align: top;}
+    .feature-lisiting li .descp{display: table-cell;padding-left: 20px;vertical-align: top;width: 89%;}
+    
+    .hearfromyou{padding: 15px 0 150px 0;}
+    .hearfromyou h4{font-size: 20px;}
+    .hearfromyou p{font-size: 16px;}
+
+    .Contactus-section{padding: 42px 0 0px;}
+    .menu{padding-top:15px;}
+    .menu li{padding: 0px 15px 15px;}
+    .menu li a{font-size:14px;}
+
+    form{width: 100%;margin: 20px auto 0px;}
+    footer h3{font-size: 20px;}
+    footer p{font-size: 16px;}
+    .custom-input{margin-top: 15px;font-size: 14px;padding: 10px;}
+    .send-btn{font-size: 18px;}
+}
+@media only screen and (min-width:571px) and (max-width:767px) {
+    .banner{height: 450px;background-size: cover;}
+    .overlay{padding: 15px 0px;background-size: cover;height: auto;}
+    .overlay .text h1{font-size: 44px;}
+    .overlay .text p{font-size: 23px;}
+    .overlay .text h1 img {width: 40px;}
+    .box{font-size: 18px;   background: #edf9f5;padding:15px;}
+    .patch-content{float:none !important; margin-bottom:10px;text-align:center;}
+    .cont-btn-box{float:none !important;}
+    .cont-btn{font-size: 16px;padding: 10px 30px;margin:0 auto; display:block;}
+    .image img {width: 120px;}
+
+    .petlover-section,
+    .feature-section,
+    footer{padding: 42px 0 42px;}
+
+    .heading,
+    .Contactus-section .heading{font-size:36px;margin-bottom: 20px;}
+
+    .petlover-section .inner-box{padding:0;}
+    .petlover-section .inner-box img{width: 200px;}
+    .petlover-section .inner-box p{font-size: 18px;}
+
+    .feature-lisiting li{width: 48%;padding: 20px 10px; margin-bottom:20px;min-height: 210px;}
+    .feature-lisiting li:nth-child(n+3){margin-bottom:0;}
+    .feature-lisiting li img{width:50px;}
+    .feature-lisiting li:nth-child(2n){margin-right:0;}
+    .feature-lisiting li h3{font-size: 21px;}
+    .feature-lisiting li p{font-size: 18px;}
+
+    .Contactus-section{padding: 42px 0 0px;}
+
+    .hearfromyou{padding: 15px 0 150px 0;}
+    .hearfromyou h4{font-size: 26px;}
+    .hearfromyou p{font-size: 18px;}
+
+    form{width: 70%;}
+    .custom-input{font-size: 18px;padding: 15px;}
+    .send-btn{font-size: 20px;}
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .banner{height: 550px;background-size: cover;}
+    .overlay{padding: 15px 0px;background-size: cover;height: auto;}
+    .overlay .text h1{font-size: 44px;}
+    .overlay .text p{font-size: 26px;}
+    .overlay .text h1 img {width: 40px;}
+    .box{font-size: 18px;    background-position: calc(100% - 30%);background-position-y: calc(100% - -90px);}
+    .cont-btn{font-size: 20px;width: 150px;}
+    .image img {width: 150px;}
+
+    .petlover-section,
+    .feature-section,
+    footer{padding: 42px 0 42px;}
+
+    .heading,
+    .Contactus-section .heading{font-size:36px;margin-bottom: 20px;}
+
+    .petlover-section .inner-box{padding:0;}
+    .petlover-section .inner-box img{width: 200px;}
+    .petlover-section .inner-box p{font-size: 18px;}
+
+    .feature-lisiting li{width: 48%;padding: 20px 10px; margin-bottom:20px;min-height: 190px;}
+    .feature-lisiting li img{width:50px;}
+    .feature-lisiting li:nth-child(2n){margin-right:0;}
+    .feature-lisiting li h3{font-size: 21px;}
+    .feature-lisiting li p{font-size: 18px;}
+
+    .Contactus-section{padding: 42px 0 0px;}
+
+    .hearfromyou{padding: 15px 0 150px 0;}
+    .hearfromyou h4{font-size: 26px;}
+    .hearfromyou p{font-size: 18px;}
+
+    form{width: 55%;}
+    .send-btn{font-size: 22px;}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .petlover-section .inner-box{padding: 0;}
+    .feature-lisiting li h3{font-size: 21px;}
+    .feature-lisiting li p{font-size: 17px;}
+}
